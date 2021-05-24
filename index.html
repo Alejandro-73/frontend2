@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+</head>
+
+<body>
+
+    <header class="header container">
+        <div class="navbar">
+            <img src="img/logo.svg" class="logo" alt="">
+            <button id="menu">
+                <i class="fas fa-bars" id="menu-bar"></i>
+            </button>
+            <nav id="superior">
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+                <div class="login">
+                    <button>Login</button>
+                    <button class="button-main">Sign Up</button>
+                </div>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="container-hero container">
+            <div class="container-img-hero ">
+                <div class="row">
+                    <h1><a href="landing">More than just shorter links</a></h1>
+                    <p class="hero-info-parrafo">Build your brand`s recognition and get detailed insights on how links
+                        are
+                        performing</p>
+                    <button class="btn hero-info-btn button-main">Get Started</button>
+                </div>
+
+                <div class="hero-img">
+                    <img src="img/logo1.svg" alt="logo1" />
+                </div>
+            </div>
+
+
+
+        </section>
+        <div class="full-width-statistics">
+            <div class="short">
+                <div class="container input-short">
+                    <input type="text" placeholder="shorten link at...." id="shortenInput" />
+                    <button class="btn" id="shorten"> Shorten It!</button>
+                </div>
+                <div class="container" id="msg-err"></div>
+                <div class=" container renderLinks">
+                    <!--<div class="result-links">
+                        <span> https://www.youtube.com/ </span>
+                        <span>
+                            <a href="">
+                                https://shrtco.de/eF6sTV
+                            </a>
+                        </span>
+                    </div>
+
+                    <div class="result-links">
+                        <span> https://www.youtube.com/ </span>
+                        <span>
+                            <a href="">
+                                https://shrtco.de/eF6sTV
+                            </a>
+                        </span>
+                    </div>
+                    <div class="result-links">
+                        <span> https://www.youtube.com/ </span>
+                        <span>
+                            <a href="">
+                                https://shrtco.de/eF6sTV
+                            </a>
+                        </span>
+                    </div>-->
+                </div>
+            </div>
+            <!-- Seccion statistics  -->
+            <div class="statistics container">
+                <div class="content">
+                    <h1 class="title">Advanced Statistics</h1>
+                    <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="img/icon-brand-recognition.svg" alt="" role="presentation" />
+                            </div>
+                            <div class="card-title">Brand Recognition</div>
+                            <div class="card-body">
+                                Boost your brand recognition with each click. Generic links don’t mean a thing. Branded
+                                links
+                                help instil confidence in your content.
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="img/icon-detailed-records.svg" alt="" role="presentation" />
+                            </div>
+                            <div class="card-title">Detailed Records</div>
+                            <div class="card-body">
+                                Gain insights into who is clicking your links. Knowing when and where people
+                                engage with your
+                                content helps inform better decisions.
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="img/icon-fully-customizable.svg" alt="" role="presentation" />
+                            </div>
+                            <div class="card-title">Fully Customizable</div>
+                            <div class="card-body">
+                                Improve brand awareness and content discoverability through customizable links,
+                                supercharging
+                                audience engagement.
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end seccion statistics -->
+        </div>
+    </main>
+
+
+    <section class="enlace">
+        <h2>Boost your links today</h2>
+        <button class="btn">Get Started</button>
+    </section>
+    <footer>
+        <div class=" footer">
+            <div class="content-footer container">
+                <h2>Shortly</h2>
+                <ul class="footer_features">
+                    <h6 class="footer_features-titulo">Features</h6>
+                    <li class="footer_features-item">Link</li>
+                    <li class="footer_features-item">Branden Links</li>
+                    <li class="footer_features-item">Analytics</li>
+                </ul>
+                <ul class="footer_resources">
+                    <h6 class="footer_features-titulo">Resources</h6>
+                    <li class="footer_resources-item">Blog</li>
+                    <li class="footer_resources-item">Developers</li>
+                    <li class="footer_resources-item">Support</li>
+                </ul>
+                <ul class="footer_company">
+                    <h6 class="footer_company-titulo">Company
+                        <h6>
+                            <li class="footer_company-item">About</li>
+                            <li class="footer_company-item">Our Teams</li>
+                            <li class="footer_company-item">Careers</li>
+                            <li class="footer_company-item">Contact</li>
+                </ul>
+                <ul class="footer-redes d-flex justify-content-around">
+
+                    <li class="social_network">
+                    <li class="fab fa-facebook-f"></li>
+                    <li class="fab fa-twitter"></li>
+                    <li class="fab fa-pinterest-p"></li>
+                    <li class="fab fa-instagram"></li>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+    <!--</footer>
+    <div class="radio-section">
+
+
+    </div>-->
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/cassius73/pruebafrontend">Alejandro Avila</a>.
+    </div>
+</body>
+
+</html>
