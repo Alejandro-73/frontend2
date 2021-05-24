@@ -255,9 +255,9 @@ button {
     color: white;
     cursor: pointer;
 }
-.short{
-    /*height: 0; */
-}
+/*.short{
+    height: 0; */
+
 
 .result-links{
     margin: 0;
@@ -481,10 +481,40 @@ button {
     .input-short input{
         width: 100%;
     }
+   
+    .cards {
+        flex-wrap: wrap;
+    }
+    .card .card-icon {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        
+    }
+    .card .card-title {
+        text-align: center;
+    }
+    .card:nth-child(2), 
+    .card:nth-child(3) {
+        margin-top: 78px;
+    }
+    .card:nth-child(1)::after , 
+    .card:nth-child(2)::after {
+        right: 0;
+        left: 65px;
+        bottom: -30px;
+        transform: rotateZ(180deg);
+        height: 30px;
+        margin: 0 auto;
+    }
     .statistics-cards {
         justify-content: center;
         text-align: center;
     }
+    .content-footer{
+       grid-template-columns: 1fr;
+    
+   }
     .footer {
         grid-template-columns: 1fr;
     }
